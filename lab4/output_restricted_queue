@@ -68,8 +68,7 @@ void main()
 {
     for(;;)
     {
-        printf("\n*****************************************************\n");
-	    printf("1.insert_rear\n2.insert_front\n3.delete_front\n4.display\n5.exit\n");
+       	    printf("1.insert_rear\n2.insert_front\n3.delete_front\n4.display\n5.exit\n");
 	    printf("enter choice: ");
 	    scanf("%d",&ch);
 	    switch(ch)
@@ -88,6 +87,5 @@ void main()
 			  break;
 	    default:exit(0);
         }
-        printf("\n*****************************************************\n");
     }
 }
