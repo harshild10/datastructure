@@ -3,8 +3,7 @@ Binary Tree
 */
 #include<stdio.h>
 #include<conio.h>
-#include<process.h>
-#include<alloc.h>
+#include<stdlib.h>
 struct node
 {
 int info;
@@ -109,7 +108,6 @@ void main()
 {
 NODE root=NULL;
 int choice,i,item;
-clrscr();
 for(;;)
 {
 printf("1.insert\n2.preorder\n3.inorder\n4.postorder\n5.display\n");
