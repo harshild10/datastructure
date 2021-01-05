@@ -1,3 +1,5 @@
+/*WAP to stimulate the working of a queue of intergers using an array. Provide the following operations: i)insert rear ii)delete front iii)display.The program 
+should print appropriate message for queue is full or  empty*/
 #include<stdio.h>
 #include<process.h>
 #define QUE_SIZE 3
