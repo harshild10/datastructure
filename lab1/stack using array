@@ -1,3 +1,8 @@
+/*WAP to stimulate the working of a stack using an array with the following
+a]push b]pop c]display
+the program should print appropriate message for stack overflow and underflow*/
+
+
 #include<stdio.h>
 int stack[100],choice,n,top,x,i;
 void push(void);
